@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap');
+
+body {
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the body takes up the full viewport height */
+    margin: 0; 
+    overflow: hidden;
+
+}
+.html:hover {
+    color: #F4D04E;
+}
+.main {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    flex-direction: column;
+    width: 327px;
+    height: 450px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Center items horizontally */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 #000000, inset 0 0 0 1px #111111; 
+    gap: 24px;
+}
+.topimage {
+    width: 279px;
+    height: 200px;
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-image: url('blogimage\ \(1\).png'); /* Set the background image */
+    background-size: contain; /* Scale the background image to fit within the container without cropping or zooming */
+    background-position: center;
+}
+.content {
+    display: flex;
+    align-items: flex-start; /* Center items vertically */
+    justify-content: flex-start;
+    width: 279px;
+    height: 173px;
+    flex-direction: column;
+    gap: 12px;
+}
+.learn {
+    color: #111111;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Figtree', sans-serif;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    width: 73px;
+    height: 26px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+}
+.publish {
+    font-size: 12px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start;
+    width: 123px;
+    height: 18px;
+}
+.html {
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start;
+    width: 279px;
+    height: 30px;
+}
+.lorem {
+    font-weight: 600;
+    color: #7F7F7F;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start;
+    font-size: 14px;
+    width: 279px;
+    height: 63px;
+}
+.l {
+    width: 279px;
+    height: 32px;
+    display: flex;
+    align-items: flex-start; /* Center items vertically */
+    justify-content: flex-start;
+}
+.a {
+    gap: 12px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start;
+    width: 130px;
+    height: 32px;
+}
+.s {
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-image: url('image-avatar.webp'); /* Set the background image */
+    background-size: contain; /* Scale the background image to fit within the container without cropping or zooming */
+    background-position: center;
+}
+.t {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111111;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 21px;
+}
